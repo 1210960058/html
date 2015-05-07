@@ -62,6 +62,7 @@ g=setInterval("test(move)",100);//1234ミリ秒に一回aaと言う関数を実�
     
     </script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style/scrollpath.css" /> 
         <script type="text/javascript">
         $(function(){
             $('a[href^=#]').click(function(){
@@ -283,11 +284,14 @@ input{
 <section id="top">
 
 		<table id="schedule">
+			
 			<caption>Schedule</caption>
 			<thead>
 			<tr><th>Date</th><th>time</th><th>place</th><th>content</th></tr>
 			</thead>
 			<tbody>
+			<ul>
+				<li ><input type="checkbox" id="2m" /><label for="1">情報物理研究室</label>	
 			<tr><td class="date">2/5</td><td>説明会終了後</td><td>ゼミ室</td><td>企業情報・就活情報の交換(終了)</td></tr>
 			<tr><td class="date">2/6</td><td>説明会終了後</td><td>ゼミ室</td><td>企業情報・就活情報の交換(終了)</td></tr>
 			<tr><td class="date">2/7</td><td>説明会終了後</td><td>ゼミ室</td><td>企業情報・就活情報の交換(中止)</td></tr>
@@ -296,7 +300,14 @@ input{
 			<tr><td class="date">2/18</td><td>？</td><td>？</td><td>卒研発表（終了）</td></tr>
 			<tr><td class="date">2/23</td><td>13:00</td><td>？</td><td>？</td></tr>
 			<tr><td class="date">2/28</td><td>17:00(〆)まで</td><td>就職室(C114)</td><td>近大テストセンター模擬試験　申し込み締め切り</td></tr>
+			</li>
+			<tr><td class="date">5/9</td><td>9:30</td><td>h102</td><td>公開講座補助</td></tr>
+			<tr><td class="date">7/25</td><td>?</td><td>?</td><td>オープンキャンパス</td></tr>	
+			<tr><td class="date">7/26</td><td>?</td><td>?</td><td>オープンキャンパス</td></tr>					
+			<tr><td class="date">木曜</td><td>12:30</td><td>ゼミ室</td><td>ランチミーティング</td></tr>	
+			<tr><td class="date">金曜</td><td>12:30</td><td>ゼミ室</td><td>ランチミーティング</td></tr>				</ul>		
 			</tbody>
+
 		</table>
 </section>
 <section id="mo">
@@ -320,13 +331,13 @@ input{
 </section>
 
 <section id="member">
-<a href="matsubara/index.html" target="_blank"><canvas id="cv0" width="220" height="316"></canvas></a>
-<a href="misawa/index.html" target="_blank"><canvas id="cv1" width="220" height="316"></canvas></a>
-<a href="nishi/index.html" target="_blank"><canvas id="cv2" width="220" height="316"></canvas></a>
-<a href="nizato/index.html" target="_blank"><canvas id="cv3" width="220" height="316"></canvas></a>
-<a href="okada/index.html" target="_blank"><canvas id="cv4" width="220" height="316"></canvas></a>
-<a href="sone/index.html" target="_blank"><canvas id="cv5" width="220" height="316"></canvas></a>
-<a href="toyota/index.html" target="_blank"><canvas id="cv6" width="220" height="316"></canvas></a>
+<a href="matsubara/index.html" target="_blank"><canvas id="cv0" width="220" height="316" title="matsubara"></canvas></a>
+<a href="misawa/index.html" target="_blank"><canvas id="cv1" width="220" height="316" title="三澤拓弥の卒業研究"></canvas></a>
+<a href="nishi/index.html" target="_blank"><canvas id="cv2" width="220" height="316" title="情報物理研究室　-NISHI-"></canvas></a>
+<a href="nizato/index.html" target="_blank"><canvas id="cv3" width="220" height="316" title="INDEX"></canvas></a>
+<a href="okada/index.html" target="_blank"><canvas id="cv4" width="220" height="316" title="Hiroki Okada Web Site｜Hiroki Okada Web Site"></canvas></a>
+<a href="sone/index.html" target="_blank"><canvas id="cv5" width="220" height="316" title="情報物理研究室　sone"></canvas></a>
+<a href="toyota/index.html" target="_blank"><canvas id="cv6" width="220" height="316" title="2015年情報物理研究室　豊田晃己のページ"></canvas></a>
 </section>		
 		
 
@@ -399,6 +410,7 @@ input{
 	<li ><input type="checkbox" id="6"/><label for="6">プログラミング勉強（追加してください）</label>
 		<ul >
 			<li><a href="http://dotinstall.com/" target="blank">ドットインストール</a></li>
+			<li><a href="http://prog-8.com/" target="blank">Progate | プログラミングの入門なら、基礎から学べるProgate (プロゲート)</a></li>
 			<li><a href="http://libro.tuyano.com/" target="blank">libro</a></li>
 			<li><a href="http://allabout.co.jp/netpc/" target="blank">AllAbout デジタル</a></li>
 			<li><a href="http://coreblog.org/ats/stuff/minpy_web/" target="blank">Pythonで学ぶWebアプリ開発のABC みんなのPython Webアプリ編 HTML版</a></li>
